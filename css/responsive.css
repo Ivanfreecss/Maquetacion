@@ -173,3 +173,40 @@
         margin-left: 56px;
     }
 }
+
+@media (max-width: 658px){
+    #banner h1{
+        font-size: 25px;
+    }
+
+    #lateral{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 20px;
+        min-height: auto;
+    }
+
+    #lateral input[type="text"]{
+        width: 93%;
+    }
+
+    #login input[type="email"], #login input[type="password"]{
+        width: 90%;
+    }
+
+    #social a{
+        margin-left: 200px;
+    }
+
+    #social .overlay{
+        margin-left: 250px;
+    }
+
+    #articles{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+    }
+}
